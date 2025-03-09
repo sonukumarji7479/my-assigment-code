@@ -119,11 +119,33 @@ int a10()
 int main()
 {
     int i = 1;
-    int n=5;
-    while (n<=1)
+    int n = 5;
+    while (n <= 1)
     {
-        printf("%d\n",5*i);
+        printf("%d\n", 5 * i);
         i++;
     }
+    return 0;
+}
+/*11.write a program to check ask user to enter an even number
+computer will give user three change if user failed to asnswer
+in all of the change "gave over" message should be displayed an the 
+screen otherwise "you win " message should be display and game stop
+immediately*/
+int main() {
+    int x,k=1;
+    while(k<=3)
+    {
+    printf("Enter Even Number:");
+    scanf("%d",&x);
+    if(x%2==0) //condition is true 
+    break; // break chalega 
+    k++;
+    }
+    
+    if(k==4) // loop pura chala hai
+      printf("game over");
+      else
+          printf("you win");
     return 0;
 }

@@ -1,8 +1,9 @@
 #include <stdio.h>
+#include<conio.h>
 /*5.write a program to ask user about the cost 
 price and selling price banana per dozen calculate 
 the profit or loss earned upon selling 25 banana*/
-int main()
+/*int main()
 {
     float cp,sp,profit;
     printf("Enter your cost price and selling price\n");
@@ -10,7 +11,7 @@ int main()
     profit=(sp-cp)/12*25;
     printf("profite(+ve)=%f \t\nLoss(-ne)=%f",profit);
     return 0;
-}
+}*/
 
 /* 4. Write a program to calculate volume of a cuboid
 घनाभ का प्रस्तीय क्षेत्रफल और घनाभ का आयतन का प्रोग्राम लिखिए*/
@@ -70,4 +71,9 @@ int A1()
     Average = (a + b + c) / 3.0;
     printf("Average = %0.2f", Average);
     return 0;
+}
+int  main()
+{
+    printf("hello student");
+    getch();
 }

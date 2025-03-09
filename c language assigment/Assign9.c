@@ -48,7 +48,7 @@ int m2()
    return 0;
 }
 
-// write a program to check wheter a given alphabet is in upperccase or lowercase.
+//3.write a program to check wheter a given alphabet is in upperccase or lowercase.
 int m3()
 {
    char c;
@@ -69,7 +69,7 @@ int m3()
    return 0;
 }
 
-/*Write a program to check a given number is divisible by 3 and divisible by 2.*/
+/*4.Write a program to check a given number is divisible by 3 and divisible by 2.*/
 int m4()
 {
    int x;
@@ -85,18 +85,19 @@ int m4()
    }
    return 0;
 }
-/*write a program to check whether a given number is divisible by 7 or divisible by 3*/
-int main(){
+/*6.write a program to check whether a given number is divisible by 7 or divisible by 3*/
+int main()
+{
    int z;
    printf("Enter your numbers:\n");
-   scanf("%d",&z);
-   if(z%7==0||z%3==0)
+   scanf("%d", &z);
+   if (z % 7 == 0 || z % 3 == 0)
    {
-       printf("%d is Divisible by 7 or 3 :",z);
+      printf("%d is Divisible by 7 or 3 :", z);
    }
    else
    {
-      printf("%d Not Divisible by 7 or 3:",z);
+      printf("%d Not Divisible by 7 or 3:", z);
    }
    return 0;
 }

@@ -43,7 +43,6 @@ int main()
 }
 
 //4.write a program to calculate LCM of two numbers
-
 int main() {
         int a,b,lcm;
     printf("Enter first numbers:\t");
@@ -59,5 +58,18 @@ int main() {
     return 0;
 }
 //.5 write a program to reverse a given number.
-
+int main()
+{
+    int n,r,y=0;
+printf("Enter a number:\t");
+scanf("%d",&n);
+while (n)
+{
+    r=n%10;
+    n=n/10;
+    y=y*10+r;
+}
+printf("%d",y);
+return 0;
+}
 
